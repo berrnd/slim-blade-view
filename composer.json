@@ -1,7 +1,7 @@
 {
-  "name": "rubellum/slim-blade-view",
+  "name": "berrnd/slim-blade-view",
   "type": "library",
-  "description": "Slim Framework 3 view helper built on the Blade component",
+  "description": "Fork of rubellum/Slim-Blade-View with Slim Framework v4 and Laravel Blade Templates v8 support",
   "keywords": [
     "slim",
     "framework",
@@ -13,13 +13,17 @@
   "license": "MIT",
   "authors": [
     {
+      "name": "Bernd Bestel",
+      "email": "bernd@berrnd.de"
+    },
+    {
       "name": "Hiroaki Matsuura",
       "email": "lib2jp@gmail.com"
     }
   ],
   "require": {
-    "illuminate/view": "5.*",
-    "philo/laravel-blade": "3.*",
+    "jenssegers/blade": "^1.4",
+    "ramsey/uuid": "^4.1.1",
     "psr/http-message": "^1.0"
   },
   "autoload": {
@@ -29,6 +33,6 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^4.0",
-    "slim/slim": "^3.0"
+    "slim/slim": "^4.0"
   }
 }

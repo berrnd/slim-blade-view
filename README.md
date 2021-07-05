@@ -1,7 +1,8 @@
-# Slim-Blade-View
+# slim-blade-wiew
 
-[![Build Status](https://travis-ci.org/rubellum/Slim-Blade-View.svg?branch=master)](https://travis-ci.org/rubellum/Slim-Blade-View)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+> A fork of [rubellum/Slim-Blade-View](https://github.com/rubellum/Slim-Blade-View) with the following changes:
+> - Slim Framework v4 support
+> - Laravel Blade Templates v8
 
 This is a Slim Framework view helper built on top of the Blade component.
 
@@ -12,10 +13,10 @@ You can use this component to create and render templates in your Slim Framework
 Via [Composer](https://getcomposer.org/)
 
 ```bash
-$ composer require rubellum/slim-blade-view
+$ composer require berrnd/slim-blade-view
 ```
 
-Requires Slim Framework 3 and PHP 5.5.0 or newer.
+Requires Slim Framework 4 and PHP 7.2.0 or newer.
 
 ## Usage
 

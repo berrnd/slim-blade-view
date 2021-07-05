@@ -169,7 +169,7 @@ class Blade
 
         $data = array_merge($this->attributes, $data);
 
-        $renderer = new \Philo\Blade\Blade($this->viewPaths, $this->cachePath, $this->events);
-        return $renderer->view()->make($template, $data)->render();
+        $renderer = new \Jenssegers\Blade\Blade($this->viewPaths, $this->cachePath, $this->events);
+        return $renderer->make($template, $data)->render();
     }
 }
