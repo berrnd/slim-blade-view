@@ -2,7 +2,7 @@
 
 > A fork of [rubellum/Slim-Blade-View](https://github.com/rubellum/Slim-Blade-View) with the following changes:
 > - Slim Framework v4 support
-> - Laravel Blade Templates v8
+> - Laravel Blade Templates v10
 
 This is a Slim Framework view helper built on top of the Blade component.
 
