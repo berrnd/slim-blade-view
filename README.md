@@ -1,14 +1,17 @@
-# Slim-Blade-View @berrnd Fork
+# slim-blade-view
 
 -----
 -----
+> [!CAUTION]
+> This is outdated, don't use it.
+-----
+-----
+
+<details><summary>Original README</summary>
+
 > A fork of [rubellum/Slim-Blade-View](https://github.com/rubellum/Slim-Blade-View) with the following changes:
 > - Slim Framework v4 support
 > - Laravel Blade Templates v11
------
------
-
-Original README:
 
 This is a Slim Framework view helper built on top of the Blade component.
 
@@ -74,3 +77,5 @@ $ phpunit
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
+Thanks!
+</details>
